@@ -5,59 +5,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Bootstrap (allowed + encouraged template hacking) -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-    }
+    body { font-family: Arial; margin: 0; }
 
-    /* HERO WITH BACKGROUND IMAGE */
     .hero {
-      background: linear-gradient(
-          rgba(0,0,0,0.6),
-          rgba(0,0,0,0.6)
-        ),
-        url("Pitt.jpg");
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("Pitt.jpg");
       background-size: cover;
-      background-position: center;
       color: white;
-      padding: 160px 20px;
+      padding: 150px 20px;
       text-align: center;
     }
 
-    .hero h1 {
-      font-size: 56px;
-      text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
-    }
+    .section { padding: 60px 30px; }
+    .bg-light { background: #f4f4f4; }
 
-    .hero p {
-      font-size: 22px;
-      margin-top: 10px;
-    }
-
-    .section {
-      padding: 60px 30px;
-    }
-
-    .bg-light {
-      background: #f4f4f4;
-    }
-
-    .project-box {
-      margin-bottom: 40px;
-    }
-
-    iframe {
-      margin-top: 15px;
-    }
-
-    ul.course-goals li {
-      margin-bottom: 10px;
-    }
+    .project-box { margin-bottom: 60px; }
 
     footer {
       padding: 40px;
@@ -70,7 +34,6 @@
 
 <body>
 
-<!-- HERO HEADER -->
 <div class="hero">
   <h1>Michael Dolessandro</h1>
   <p>Composing Digital Media Portfolio</p>
@@ -80,132 +43,152 @@
 <div class="section bg-light">
   <h2>Portfolio Statement</h2>
   <p>
-    This portfolio brings together a series of coded and experimental digital
-    media projects created through remixing, hacking, and iterative revision.
-    Rather than producing fixed or linear works, these projects emphasize
-    play, instability, and exploration in response to ideas from Derrida and
-    contemporary new media theory. Code is treated as material. Something that is to be
-    reused, altered, and pushed beyond its original purpose.
+    This portfolio brings together a series of digital media projects exploring
+    code, sound, image, and interaction. Across these works, I focus on experimentation,
+    remixing, and process-based creation, drawing on ideas from Derrida, Barthes,
+    Benjamin, and Debord.
   </p>
 </div>
 
-<!-- WEBTEXT EXPERIMENT -->
+<!-- INTRO TO NEW MEDIA -->
 <div class="section">
-  <h2>New Media Webtext Experiment</h2>
+  <h2>Introduction to New Media</h2>
 
+  <!-- PROJECT 1 -->
   <div class="project-box">
-    <p>
-      This webtext experiment was created by hacking and modifying existing
-      code rather than writing from scratch. Inspired by Derrida’s discussion
-      of structure and play, the site resists a single center or linear reading
-      path and instead invites exploration and instability.
-    </p>
+    <h3>Code and Technology Narrative</h3>
+    <p>Created by modifying an existing codebase and publishing through GitHub Pages.</p>
 
-    <p>
-      Meaning emerges through interaction, navigation, and fragmentation rather
-      than explanation. The web itself functions as the medium, not just a
-      container for content, aligning with the experimental ethos of new media
-      art.
-    </p>
-
-    <a href="https://bk6sjjxqy2-blip.github.io/md/" target="_blank" class="btn btn-default">
-      View Webtext Experiment
+    <a href="https://bk6sjjxqy2-blip.github.io/md/" target="_blank" class="btn btn-primary">
+      View Project
     </a>
-
-    <h4><em>Course Goals</em></h4>
-    <ul class="course-goals">
-      <li><strong>Embrace experimentation:</strong> prioritizing play and risk over polish.</li>
-      <li><strong>Technology’s role in making:</strong> code actively shapes meaning.</li>
-      <li><strong>Revision:</strong> structure and navigation evolved through testing.</li>
-    </ul>
   </div>
-</div>
 
-<!-- THE CAVE PROJECT -->
-<div class="section bg-light">
-  <h2>Webtext Experiment: The Cave</h2>
-
+  <!-- PROJECT 2 -->
   <div class="project-box">
-    <p>
-      <em>The Cave</em> is a web based narrative experiment exploring perception,
-      mediation, and belief through interaction. Meaning is shaped by movement
-      through the site rather than direct explanation.
-    </p>
+    <h3>New Media Webtext Experiment</h3>
+    <p>Inspired by Derrida’s “Structure, Sign, and Play,” exploring non-linear interaction.</p>
 
-    <p>
-      The project foregrounds instability and play, aligning with Derrida’s
-      concept of decentered structure and new media’s emphasis on interaction.
-    </p>
+    <a href="https://bk6sjjxqy2-blip.github.io/md/" target="_blank" class="btn btn-primary">
+      View Experiment
+    </a>
+  </div>
 
-    <a href="https://bk6sjjxqy2-blip.github.io/cave/" target="_blank" class="btn btn-default">
+  <!-- PROJECT 3 -->
+  <div class="project-box">
+    <h3>The Cave (Interactive Narrative)</h3>
+    <p>Multi-page experience inspired by Plato’s Allegory of the Cave.</p>
+
+    <a href="https://bk6sjjxqy2-blip.github.io/mdd/" target="_blank" class="btn btn-primary">
       Enter The Cave
     </a>
-
-    <h4><em>Course Goals</em></h4>
-    <ul class="course-goals">
-      <li><strong>Experimentation:</strong> non-linear narrative design.</li>
-      <li><strong>Technology:</strong> interface shapes interpretation.</li>
-      <li><strong>Presentation:</strong> theory communicated through interaction.</li>
-    </ul>
   </div>
+
+  <hr>
+
+  <h3><em>Course Goals</em></h3>
+
+  <p><strong>1. <em>Consider technology’s role in acts of making</em></strong><br>
+  Code and web structures shape how meaning is created and experienced.</p>
+
+  <p><strong>2. <em>Embrace experimentation</em></strong><br>
+  These projects prioritize play, remixing, and non-linear design.</p>
+
+  <p><strong>3. <em>Engage with others in a workshop environment</em></strong><br>
+  Feedback influenced structure and interaction.</p>
+
+  <p><strong>4. <em>Practice revision within and across media forms</em></strong><br>
+  Projects evolved through continuous revision of code and design.</p>
+
+  <p><strong>5. <em>Learn to present your work</em></strong><br>
+  Work is presented through interactive web experiences.</p>
 </div>
 
-<!-- SOUND COMPOSITION -->
-<div class="section">
-  <h2>Sound Composition</h2>
+<!-- SOUND AND IMAGE -->
+<div class="section bg-light">
+  <h2>Sound and Image</h2>
 
+  <!-- SOUND -->
   <div class="project-box">
-    <iframe width="100%" height="166" scrolling="no" frameborder="no"
-      allow="autoplay"
-      src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/michaeldolessandro/sound-composition">
+    <h3>Sound Composition</h3>
+
+    <iframe width="100%" height="166"
+    src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/michaeldolessandro/sound-composition">
     </iframe>
 
-    <p>
-      This sound composition explores repetition, layering, and fragmentation
-      as compositional strategies. Meaning shifts through listening rather than
-      linear progression.
-    </p>
-
-    <p>
-      The piece reflects a process-based approach to new media composition,
-      treating sound as mutable and revisable material.
-    </p>
-
-    <h4><em>Course Goals</em></h4>
-    <ul class="course-goals">
-      <li><strong>Experimentation:</strong> process over product.</li>
-      <li><strong>Technology:</strong> digital tools shape sonic form.</li>
-      <li><strong>Presentation:</strong> audio reframed through web embedding.</li>
-    </ul>
+    <a href="https://soundcloud.com/michaeldolessandro/sound-composition" target="_blank" class="btn btn-primary">
+      Listen
+    </a>
   </div>
+
+  <!-- PODCAST -->
+  <div class="project-box">
+    <h3>Exploratory Podcast</h3>
+
+    <iframe width="100%" height="166"
+    src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/michaeldolessandro/exploratory-podcast">
+    </iframe>
+
+    <a href="https://soundcloud.com/michaeldolessandro/exploratory-podcast" target="_blank" class="btn btn-primary">
+      Listen
+    </a>
+  </div>
+
+  <!-- COLLAGE -->
+  <div class="project-box">
+    <h3>Photo/Text Collage</h3>
+
+    <a href="That has Been.pdf" target="_blank" class="btn btn-primary">
+      View Collage
+    </a>
+  </div>
+
+  <!-- PHOTO ESSAY -->
+  <div class="project-box">
+    <h3>Photo Essay</h3>
+
+    <iframe width="100%" height="400"
+    src="https://www.youtube.com/embed/xpmgFCKusAI"
+    frameborder="0" allowfullscreen>
+    </iframe>
+
+    <a href="https://www.youtube.com/watch?v=xpmgFCKusAI" target="_blank" class="btn btn-primary">
+      Watch Video
+    </a>
+  </div>
+
+  <hr>
+
+  <h3><em>Course Goals</em></h3>
+
+  <p><strong>1. <em>Consider technology’s role in acts of making</em></strong><br>
+  Digital tools shape how sound, image, and video are created.</p>
+
+  <p><strong>2. <em>Embrace experimentation</em></strong><br>
+  Projects explore combining media forms in new ways.</p>
+
+  <p><strong>3. <em>Engage with others in a workshop environment</em></strong><br>
+  Feedback guided revisions and improvements.</p>
+
+  <p><strong>4. <em>Practice revision within and across media forms</em></strong><br>
+  Work evolved through editing and restructuring.</p>
+
+  <p><strong>5. <em>Learn to present your work</em></strong><br>
+  Projects are shared through platforms like SoundCloud and YouTube.</p>
 </div>
 
 <!-- REFLECTION -->
-<div class="section bg-light">
+<div class="section">
   <h2>Reflection</h2>
   <p>
-    Throughout this course, I learned that composing digital media involves
-    more than technical execution. It requires attention to rhetoric, structure,
-    and audience experience.
-  </p>
-
-  <p>
-    This class pushed me to be more creative by encouraging experimentation
-    rather than correctness. Working through these projects helped me understand
-    how code operates on an invisible level shaping interaction and meaning even
-    when it is not immediately seen.
-  </p>
-
-  <p>
-    As I became more comfortable modifying and reusing code, I gained a clearer
-    sense of how structure influences creative possibility across media forms.
+    This course expanded my understanding of digital media as a process of experimentation,
+    interaction, and revision. I learned that code, sound, and image all function as tools
+    for shaping experience and meaning.
   </p>
 </div>
 
-<!-- FOOTER -->
 <footer>
-  <p>Generated through hacking, remixing, and experimentation</p>
-  <p>“Why make a spark when you can light a fire?”</p>
+  <p>Michael Dolessandro Portfolio</p>
 </footer>
 
 </body>
